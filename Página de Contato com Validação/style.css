@@ -1,0 +1,88 @@
+/* Centralizar o formulário na página */
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #272a37;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Estilização do contêiner do formulário */
+.form-container {
+    background: #323644;
+    padding: 4rem;
+    border-radius: 1rem;
+    box-shadow: 0 2 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 500px;
+    color: #ffffff;
+}
+
+/* Estilo do título do formulário */
+.form-title {
+    font-size: 2.0rem;
+    text-align: center;
+    color: #1d90f5;
+    margin-bottom: 1.8rem;
+}
+
+/* Estilo para o contêiner de mensagem */
+#message-container {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.success {
+    color: greenyellow;
+}
+
+.error {
+    color: tomato;
+}
+
+/* Estilização do formulário e dos botões */
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #84868f;
+}
+
+form input,
+form textarea,
+form button {
+    width: 100%;
+    font: inherit;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border: none;
+}
+
+form input,
+form textarea {
+    background: #3c3f51;
+    color: white;
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #1d90f5;
+}
+
+form button {
+    background: #1d90f5;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #1c70d3;
+}

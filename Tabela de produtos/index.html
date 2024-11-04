@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Produtos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #010201;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 6px 8px #094fe71a;
+        }
+
+        thead {
+            background-color: #f10000;
+            color: white;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border: 2px solid #413f3f;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #e9e9e9;
+        }
+
+        tbody tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+<h1>Tabela de Produtos</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Preço</th>
+            <th>Categoria</th>
+            <th>Descrição</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Produto 1</td>
+            <td>R$ 450,00</td>
+            <td>Eletrônicos</td>
+            <td>Produto de alta qualidade.</td>
+        </tr>
+        <tr>
+            <td>Produto 2</td>
+            <td>R$ 9,99</td>
+            <td>Utilidades Domésticas</td>
+            <td>Tudo por R$ 9,99.</td>
+        </tr>
+        <tr>
+            <td>Produto 3</td>
+            <td>R$ 70,00</td>
+            <td>Pele</td>
+            <td>Produto de cuidados pessoais.</td>
+        </tr>
+        <tr>
+            <td>Produto 4</td>
+            <td>R$ 90,00</td>
+            <td>Esportes</td>
+            <td>Bolas de futebol.</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
